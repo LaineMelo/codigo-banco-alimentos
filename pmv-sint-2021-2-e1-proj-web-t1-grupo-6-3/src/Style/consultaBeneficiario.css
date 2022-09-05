@@ -1,0 +1,100 @@
+body{
+    background-color:FFFFFF;
+    margin: 20px;
+  }
+  
+  .logo{
+      width: 260px;
+      height: 90px;
+      left: 70px;
+      top: 70px;
+      padding: 10px;
+      line-height: 10px;
+  }
+     
+  h1{
+    background-color: #7FEF8A;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    color:#00000080;
+    margin-left:60px;
+    margin-right: 60px;
+  }
+  
+  h2{
+    font-family: Telex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height:3px;
+    color:#0000004d;
+    margin-left:70px;
+    
+  }
+  
+  .projeto{
+    font-family: Telex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height:3px;
+    color:#7FEF8A;
+    margin-left:  70px;
+    
+  }
+  
+  table{
+    
+    width: 90%;
+    margin-right:30px;
+    margin-left:30px;
+    margin-bottom: 30px;
+    line-height:20px;
+    border-top:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    
+  }
+  
+  
+  th, td{
+    border-bottom: 1px solid #ddd;
+    border:1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+    font-family: Telex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5f5a5aad;
+  }
+  
+  th {
+      height: 50px;   
+  }
+  button{
+    position: center;
+    background: #81E28B;
+    border-radius:30px;
+    border: solid 1px transparent;
+    width:150px;
+    height:35px;
+    left:722px;
+    top:695px;
+    font-family: Telex;  
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color:#00000080;
+
+  }
+
+    
+  

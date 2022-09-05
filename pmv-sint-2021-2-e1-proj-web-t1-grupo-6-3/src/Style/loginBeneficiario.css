@@ -1,0 +1,92 @@
+body{
+    text-align:center; 
+    font-family: Work Sans;
+    background-color:FFFFFF;
+    margin: 20px;
+  
+  }
+    .logo{
+      width: 260px;
+      height: 90px;
+      left: 70px;
+      top: 70px;
+      padding: 10px;
+     
+    }
+    
+    h2{
+      text-align: header 1;
+      font-family: work Sans;
+      font-style: bold; 
+      font-weight:  700;
+      font-style:normal; 
+      font-size:34px; 
+      letter-spacing:-2%;
+      color:#00000080; 
+    
+      }
+  
+    label{
+      display: block;
+      width:42px;
+      height:29px;
+      top:379px;
+      left:378px;
+    }
+  
+    input{
+      font-family: Telex;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 29px;
+      color: #00000041;
+      background-color: #81E28B;
+      width:450px;
+      height:52px;
+      top:350px; 
+      left:300px;
+      border-radius:16px;
+      border: solid 1px transparent; 
+  
+    }
+    .esquecisenha{
+      font-family: Telex;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 60px;
+      
+      }
+  
+    .criarconta{
+        font-family: Telex;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 60px;
+        text-align:right; 
+    }
+
+    button{
+      background: #81E28B;
+      border-radius:30px;
+      border: solid 1px transparent;
+      width:150px;
+      height:35px;
+      left:722px;
+      top:695px;
+      font-family: Telex;  
+      font-weight: 400; 
+      font-style: normal;
+      font-size: 20px;
+      line-height: 29px;
+      color:#00000080;
+  
+    }
+
+    nav a {
+      color: #28B736;
+    }
+    
+   

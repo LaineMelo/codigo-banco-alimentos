@@ -1,0 +1,226 @@
+/* Todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.titulo{
+    background-color: #81E28B;
+    height: 45px;
+}
+#titulo {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    text-align: left;
+    
+} 
+
+#subtitulo {
+    font-family: sans-serif;
+    font-weight: 600;
+    
+} 
+
+/*#check{
+    display: inline-block;
+}*/
+
+#logo {
+    position: relative;
+    left: 3%;
+
+}
+div#bar{
+    position: relative;
+    width: 800px;
+    left:29.1%
+}
+div.row{
+    width: 800px;
+    height: 550px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;  
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 16px 16px;
+    text-align: justify;
+}
+
+form{
+    
+    position: relative;
+    margin-left: 4%;
+    text-align: justify;
+    margin-top: 7%;
+    line-height: 2.7;
+    
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+   /*margin-bottom: 1em;*/
+    position: static;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: inline-block;
+}
+
+
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    
+    /*box-shadow: 2px 2px 2px rgba(0,0,0,0.2);*/
+    display: inline-block;
+    /*margin: 0;*/
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    /*background:#7FEF8A;*/
+    background-color: rgb(226, 226, 226);
+}
+
+div.botao {
+    /*font-size: 1.2em;
+    background: #7FEF8A;
+    border: 0;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);*/
+    width: fit-content;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    
+    /*transform: translate(-50%, -50%)*/
+}
+
+.botao:hover {
+    background: white;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+input{
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cceecf; 
+    border:0;
+    height: 30px;
+    padding: 0.3em;
+}
+
+label.radio{
+    /*margin-left: 2%;*/
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: #81E28B;
+}
+input#nomeFunc{
+    margin-left:15px;
+    margin-top:auto;
+    width: 72%;
+    
+}
+input#cpfFunc{
+    margin-left:15px;
+    margin-top:auto;
+    width: 83%;
+}
+
+input#enderecoFunc{
+    margin-left:15px;
+    margin-top:auto;
+    width: 78%;
+}
+
+p{
+    margin: 0;
+    position: absolute;
+    top:120%;
+    line-height: 2.7;
+    width: 100%;
+}
+input#unidade{
+    margin-left:15px;
+    margin-top:auto;
+    width: 79%;
+}
+input#cargo{
+    margin-left:15px;
+    margin-top:auto;
+    width: 81%;
+
+}
+/*input[name="contato"]{
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top:auto;
+    width: 35%
+}
+input[name="email"]{
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top:auto;
+    width: 33.4%;
+}*/
+/*input[name="rg"]{
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top:auto;
+    width: 29.5%;
+}*/
+/*input[type="radio"]{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}*/
+/*input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}*/
+/*div.voltar{
+    position: relative;
+    width: fit-content;
+    left: 82%;
+    top: 1%;
+}*/
+/*fieldset.grupo .campo {
+    /*float:  left;
+    margin-right: 1em;
+}*/
